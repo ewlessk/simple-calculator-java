@@ -18,5 +18,8 @@ public static double divide(int a, int b) {
     if (b == 0) throw new IllegalArgumentException("На ноль делить нельзя");
     return (double) a / b;
 }
+public static int mod(int a, int b) {
+    return a % b;
+}
 
 }
